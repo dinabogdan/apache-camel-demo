@@ -24,7 +24,6 @@ public class FooProcessor implements Processor {
     }
 
     @Override
-
     public void process(Exchange exchange) throws Exception {
         String fileName = exchange.getIn().getHeader(FILE_NAME).toString();
         fileName = fileName + "_bar_" + LocalDateTime.now().toString();

@@ -1,0 +1,16 @@
+version: '2'
+services:
+  dbpostgres:
+    image: postgres
+    volumes_from:
+      - dbdata
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: Password
+
+  dbdata:
+    image: alpine
+    volumes:
+      - /var/lib/postgresql/data
+

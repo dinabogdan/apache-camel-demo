@@ -28,7 +28,6 @@ public class ContentBasedRouter extends RouteBuilder {
         if (INSTANCE == null) {
             INSTANCE = new ContentBasedRouter(source, fooDestination, barDestination, destination);
         }
-
         return INSTANCE;
 
     }

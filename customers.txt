@@ -1,0 +1,3 @@
+Customer{id=1, name='DINA BOGDAN', age=24}
+Customer{id=2, name='BURCHI SEBI', age=23}
+Customer{id=3, name='CHIHAIA ALEX', age=23}
