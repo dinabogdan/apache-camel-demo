@@ -53,7 +53,6 @@ public class AppMainTest {
             }
         });
 
-
         camelContext.start();
 
         ProducerTemplate producerTemplate = camelContext.createProducerTemplate();
@@ -71,11 +70,4 @@ public class AppMainTest {
         dataSource.setUrl(DB_URL);
         return dataSource;
     }
-
-    private class Customer {
-        public int id;
-        public String name;
-        public int age;
-    }
-
 }

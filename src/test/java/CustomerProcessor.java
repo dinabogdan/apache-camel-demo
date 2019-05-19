@@ -4,12 +4,11 @@ import org.apache.camel.Processor;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
-import java.util.stream.Collectors;
 
 class Customer {
-    public int id;
-    public String name;
-    public int age;
+    int id;
+    String name;
+    int age;
 
     @Override
     public String toString() {
